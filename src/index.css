@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.mycon {
+  max-width: 1320px;
+  margin: 0 auto
+}
+
+.bars-btn {
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+
+.showcase .left-show {
+  background-image: url('./components/home-components/images/Container.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase .right-show {
+  background-image: url('./components/home-components/images/Container-2.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.romb {
+  transform: skewX(-20deg);
+  display: inline-block;
+}
+
+.inner-romb {
+  transform: skewX(20deg);
+  display: inline-block;
+}
+
+.items-1 {
+  background-image: url("./components/home-components/images/exiciting-cat/Container.svg");
+}
+
+.items-2 {
+  background-image: url("./components/home-components/images/exiciting-cat/Container-2.svg");
+}
+
+.items-3 {
+  background-image: url("./components/home-components/images/exiciting-cat/Container-3.svg");
+}
+
+.items-4 {
+  background-image: url("./components/home-components/images/exiciting-cat/Container-4.svg");
+}
+
+.items-5 {
+  background-image: url("./components/home-components/images/exiciting-cat/Container-5.svg");
+}
+
+.items-6 {
+  background-image: url("./components/home-components/images/exiciting-cat/Container-6.svg");
+}
+
+.action {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.spotlight {
+  transform: skewX(-15deg);
+}
+
+.spotlight>* {
+  transform: skewX(15deg);
+  display: inline-block;
+}
+
+.mag-layout {
+  font-family: "Manrope", sans-serif;
+}
+
+.cards {
+  background-color: #E8F1F1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.racing {
+  background-image: url('./components/home-components/images/popular-news/Container.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.action {
+  background-image: url('./components/home-components/images/popular-news/Container-2.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fighter {
+  background-image: url('./components/home-components/images/popular-news/Container-3.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.animation {
+  background-image: url('./components/home-components/images/popular-news/Container-4.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.story {
+  background-image: url('./components/home-components/images/popular-news/Container-5.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
