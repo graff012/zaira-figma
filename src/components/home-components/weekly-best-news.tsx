@@ -36,8 +36,8 @@ const WeeklyBestNews = () => {
           </div>
         </div>
 
-        <div className="bottom mt-9 flex">
-          <div className="left-items flex flex-col gap-5">
+        <div className="bottom mt-9 flex justify-between">
+          <div className="left-items flex flex-col gap-5 max-w-[70%]">
 
             <div className="left-items-1 flex gap-x-10">
               <img className="rounded-xl" src={conOne} alt="" />
@@ -176,7 +176,7 @@ const WeeklyBestNews = () => {
             </div>
           </div>
 
-          <div className="right-items">
+          <div className="right-items max-w-[30%]">
             <img className="mb-6" src={conFive} alt="" />
 
             <button className="font-[Manrope] rounded-md text-[#6D757F] mb-2 text-[13px] px-2 py-1 border-2 border-gray-600">FIGHTER</button>

@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom"
 import logo from "../../components/home-components/images/w_logo.png.svg"
+import day from "../Background+Shadow.svg"
+import up from "../Button.svg"
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0C1622] pt-[200px] mt-[66px]">
+    <footer className="bg-[#0C1622] pt-[200px] mt-[66px] relative">
 
       <div className="mycon">
         <div className="top-f flex items-center">
@@ -20,7 +22,7 @@ const Footer = () => {
 
             {/* Company */}
             <div>
-              <h2 className="text-lg font-semibold mb-2">Company</h2>
+              <h2 className="text-lg font-semibold mb-2 text-white">Company</h2>
               <div className="w-6 h-1 bg-[#FF6B6B] mb-4"></div>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li><a href="#">About Us</a></li>
@@ -33,7 +35,7 @@ const Footer = () => {
 
             {/* Get Help */}
             <div>
-              <h2 className="text-lg font-semibold mb-2">Get Help</h2>
+              <h2 className="text-lg font-semibold mb-2 text-white">Get Help</h2>
               <div className="w-6 h-1 bg-[#FF6B6B] mb-4"></div>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li><a href="#">Contact & FAQ</a></li>
@@ -46,7 +48,7 @@ const Footer = () => {
 
             {/* Explore */}
             <div>
-              <h2 className="text-lg font-semibold mb-2">Explore</h2>
+              <h2 className="text-lg font-semibold mb-2 text-white">Explore</h2>
               <div className="w-6 h-1 bg-[#FF6B6B] mb-4"></div>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li><a href="#">The Shop</a></li>
@@ -59,7 +61,7 @@ const Footer = () => {
 
             {/*  Follow Us On */}
             <div>
-              <h2 className="text-lg font-semibold mb-2">Follow Us On</h2>
+              <h2 className="text-lg font-semibold mb-2 text-white">Follow Us On</h2>
               <div className="w-6 h-1 bg-[#FF6B6B] mb-4"></div>
               <ul className="space-y-2 text-sm text-gray-300">
                 <li><a href="#">Facebook</a></li>
@@ -87,6 +89,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      <img className="absolute left-[1400px] bottom-[170px]" src={day} alt="" />
+      <img className="absolute left-[1430px] bottom-[140px]" src={up} alt="" />
 
     </footer>
   )
